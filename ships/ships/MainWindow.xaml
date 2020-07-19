@@ -1,0 +1,23 @@
+﻿<Window x:Class="ships.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ships"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1090.722">
+    <Grid Background="Blue" Margin="0,0,24.742,0">
+        <Viewbox HorizontalAlignment="Left" Height="338.773" Margin="37.753,70.227,0,0" VerticalAlignment="Top" Width="705.154" OpacityMask="Blue">
+            <Canvas x:Name="sea" Height="100" Width="208.183" RenderTransformOrigin="1.589,0.471" Background="Blue"/>
+        </Viewbox>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="772" Height="38.517" Click="btnStart_Click"/>
+        <RichTextBox x:Name="transmission" HorizontalAlignment="Left" Height="399" Margin="817.134,10,0,0" VerticalAlignment="Top" Width="230.846">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>
